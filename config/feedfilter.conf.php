@@ -51,50 +51,58 @@ $cfg['example']['url']   = array(
 );
 // Filter out
 /*
-$cfg['example']['filter']['title']['starts']      = array('words','that','will filter out an entry');
-$cfg['example']['filter']['title']['contains']    = array('words','that','will filter out an entry');
-$cfg['example']['filter']['title']['ends']        = array('words','that','will filter out an entry');
-$cfg['example']['filter']['title']['regex']       = array('words','that','will filter out an entry');
-$cfg['example']['filter']['link']['starts']       = array('words','that','will filter out an entry');
-$cfg['example']['filter']['link']['contains']     = array('words','that','will filter out an entry');
-$cfg['example']['filter']['link']['ends']         = array('words','that','will filter out an entry');
-$cfg['example']['filter']['link']['regex']        = array('words','that','will filter out an entry');
-$cfg['example']['filter']['content']['starts']    = array('words','that','will filter out an entry');
-$cfg['example']['filter']['content']['contains']  = array('words','that','will filter out an entry');
-$cfg['example']['filter']['content']['ends']      = array('words','that','will filter out an entry');
-$cfg['example']['filter']['content']['regex']     = array('words','that','will filter out an entry');
-$cfg['example']['filter']['author']['starts']     = array('words','that','will filter out an entry');
-$cfg['example']['filter']['author']['contains']   = array('words','that','will filter out an entry');
-$cfg['example']['filter']['author']['ends']       = array('words','that','will filter out an entry');
-$cfg['example']['filter']['author']['regex']      = array('words','that','will filter out an entry');
-$cfg['example']['filter']['category']['starts']   = array('words','that','will filter out an entry');
-$cfg['example']['filter']['category']['contains'] = array('words','that','will filter out an entry');
-$cfg['example']['filter']['category']['ends']     = array('words','that','will filter out an entry');
-$cfg['example']['filter']['category']['regex']    = array('words','that','will filter out an entry');
+$cfg['example']['filter']['title']['starts']            = array('words','that','will filter out an entry');
+$cfg['example']['filter']['title']['contains']          = array('words','that','will filter out an entry');
+$cfg['example']['filter']['title']['ends']              = array('words','that','will filter out an entry');
+$cfg['example']['filter']['title']['regex']             = array('words','that','will filter out an entry');
+$cfg['example']['filter']['link']['starts']             = array('words','that','will filter out an entry');
+$cfg['example']['filter']['link']['contains']           = array('words','that','will filter out an entry');
+$cfg['example']['filter']['link']['ends']               = array('words','that','will filter out an entry');
+$cfg['example']['filter']['link']['regex']              = array('words','that','will filter out an entry');
+$cfg['example']['filter']['link_original']['starts']    = array('words','that','will filter out an entry');
+$cfg['example']['filter']['link_original']['contains']  = array('words','that','will filter out an entry');
+$cfg['example']['filter']['link_original']['ends']      = array('words','that','will filter out an entry');
+$cfg['example']['filter']['link_original']['regex']     = array('words','that','will filter out an entry');
+$cfg['example']['filter']['content']['starts']          = array('words','that','will filter out an entry');
+$cfg['example']['filter']['content']['contains']        = array('words','that','will filter out an entry');
+$cfg['example']['filter']['content']['ends']            = array('words','that','will filter out an entry');
+$cfg['example']['filter']['content']['regex']           = array('words','that','will filter out an entry');
+$cfg['example']['filter']['author']['starts']           = array('words','that','will filter out an entry');
+$cfg['example']['filter']['author']['contains']         = array('words','that','will filter out an entry');
+$cfg['example']['filter']['author']['ends']             = array('words','that','will filter out an entry');
+$cfg['example']['filter']['author']['regex']            = array('words','that','will filter out an entry');
+$cfg['example']['filter']['category']['starts']         = array('words','that','will filter out an entry');
+$cfg['example']['filter']['category']['contains']       = array('words','that','will filter out an entry');
+$cfg['example']['filter']['category']['ends']           = array('words','that','will filter out an entry');
+$cfg['example']['filter']['category']['regex']          = array('words','that','will filter out an entry');
 */
 
 // Filter keep
 /*
-$cfg['example']['filter']['title']['starts']      = array('words','that','will keep an entry');
-$cfg['example']['filter']['title']['contains']    = array('words','that','will keep an entry');
-$cfg['example']['filter']['title']['ends']        = array('words','that','will keep an entry');
-$cfg['example']['filter']['title']['regex']       = array('words','that','will keep an entry');
-$cfg['example']['filter']['link']['starts']       = array('words','that','will keep an entry');
-$cfg['example']['filter']['link']['contains']     = array('words','that','will keep an entry');
-$cfg['example']['filter']['link']['ends']         = array('words','that','will keep an entry');
-$cfg['example']['filter']['link']['regex']        = array('words','that','will keep an entry');
-$cfg['example']['filter']['content']['starts']    = array('words','that','will keep an entry');
-$cfg['example']['filter']['content']['contains']  = array('words','that','will keep an entry');
-$cfg['example']['filter']['content']['ends']      = array('words','that','will keep an entry');
-$cfg['example']['filter']['content']['regex']     = array('words','that','will keep an entry');
-$cfg['example']['filter']['author']['starts']     = array('words','that','will keep an entry');
-$cfg['example']['filter']['author']['contains']   = array('words','that','will keep an entry');
-$cfg['example']['filter']['author']['ends']       = array('words','that','will keep an entry');
-$cfg['example']['filter']['author']['regex']      = array('words','that','will keep an entry');
-$cfg['example']['filter']['category']['starts']   = array('words','that','will keep an entry');
-$cfg['example']['filter']['category']['contains'] = array('words','that','will keep an entry');
-$cfg['example']['filter']['category']['ends']     = array('words','that','will keep an entry');
-$cfg['example']['filter']['category']['regex']    = array('words','that','will keep an entry');
+$cfg['example']['filter']['keep']['title']['starts']            = array('words','that','will keep an entry');
+$cfg['example']['filter']['keep']['title']['contains']          = array('words','that','will keep an entry');
+$cfg['example']['filter']['keep']['title']['ends']              = array('words','that','will keep an entry');
+$cfg['example']['filter']['keep']['title']['regex']             = array('words','that','will keep an entry');
+$cfg['example']['filter']['keep']['link']['starts']             = array('words','that','will keep an entry');
+$cfg['example']['filter']['keep']['link']['contains']           = array('words','that','will keep an entry');
+$cfg['example']['filter']['keep']['link']['ends']               = array('words','that','will keep an entry');
+$cfg['example']['filter']['keep']['link']['regex']              = array('words','that','will keep an entry');
+$cfg['example']['filter']['keep']['link_original']['starts']    = array('words','that','will keep an entry');
+$cfg['example']['filter']['keep']['link_original']['contains']  = array('words','that','will keep an entry');
+$cfg['example']['filter']['keep']['link_original']['ends']      = array('words','that','will keep an entry');
+$cfg['example']['filter']['keep']['link_original']['regex']     = array('words','that','will keep an entry');
+$cfg['example']['filter']['keep']['content']['starts']          = array('words','that','will keep an entry');
+$cfg['example']['filter']['keep']['content']['contains']        = array('words','that','will keep an entry');
+$cfg['example']['filter']['keep']['content']['ends']            = array('words','that','will keep an entry');
+$cfg['example']['filter']['keep']['content']['regex']           = array('words','that','will keep an entry');
+$cfg['example']['filter']['keep']['author']['starts']           = array('words','that','will keep an entry');
+$cfg['example']['filter']['keep']['author']['contains']         = array('words','that','will keep an entry');
+$cfg['example']['filter']['keep']['author']['ends']             = array('words','that','will keep an entry');
+$cfg['example']['filter']['keep']['author']['regex']            = array('words','that','will keep an entry');
+$cfg['example']['filter']['keep']['category']['starts']         = array('words','that','will keep an entry');
+$cfg['example']['filter']['keep']['category']['contains']       = array('words','that','will keep an entry');
+$cfg['example']['filter']['keep']['category']['ends']           = array('words','that','will keep an entry');
+$cfg['example']['filter']['keep']['category']['regex']          = array('words','that','will keep an entry');
 */
 
 /**
@@ -105,24 +113,28 @@ $cfg['example']['filter']['category']['regex']    = array('words','that','will k
 */
 // Filter out
 /*
-$cfg['global_filter']['filter']['title']['starts']      = array('words','that','will filter out an entry');
-$cfg['global_filter']['filter']['title']['contains']    = array('words','that','will filter out an entry');
-$cfg['global_filter']['filter']['title']['ends']        = array('words','that','will filter out an entry');
-$cfg['global_filter']['filter']['title']['regex']       = array('words','that','will filter out an entry');
-$cfg['global_filter']['filter']['link']['starts']       = array('words','that','will filter out an entry');
-$cfg['global_filter']['filter']['link']['contains']     = array('words','that','will filter out an entry');
-$cfg['global_filter']['filter']['link']['ends']         = array('words','that','will filter out an entry');
-$cfg['global_filter']['filter']['link']['regex']        = array('words','that','will filter out an entry');
-$cfg['global_filter']['filter']['content']['starts']    = array('words','that','will filter out an entry');
-$cfg['global_filter']['filter']['content']['contains']  = array('words','that','will filter out an entry');
-$cfg['global_filter']['filter']['content']['ends']      = array('words','that','will filter out an entry');
-$cfg['global_filter']['filter']['content']['regex']     = array('words','that','will filter out an entry');
-$cfg['global_filter']['filter']['author']['starts']     = array('words','that','will filter out an entry');
-$cfg['global_filter']['filter']['author']['contains']   = array('words','that','will filter out an entry');
-$cfg['global_filter']['filter']['author']['ends']       = array('words','that','will filter out an entry');
-$cfg['global_filter']['filter']['author']['regex']      = array('words','that','will filter out an entry');
-$cfg['global_filter']['filter']['category']['starts']   = array('words','that','will filter out an entry');
-$cfg['global_filter']['filter']['category']['contains'] = array('words','that','will filter out an entry');
-$cfg['global_filter']['filter']['category']['ends']     = array('words','that','will filter out an entry');
-$cfg['global_filter']['filter']['category']['regex']    = array('words','that','will filter out an entry');
+$cfg['global_filter']['filter']['title']['starts']            = array('words','that','will filter out an entry');
+$cfg['global_filter']['filter']['title']['contains']          = array('words','that','will filter out an entry');
+$cfg['global_filter']['filter']['title']['ends']              = array('words','that','will filter out an entry');
+$cfg['global_filter']['filter']['title']['regex']             = array('words','that','will filter out an entry');
+$cfg['global_filter']['filter']['link']['starts']             = array('words','that','will filter out an entry');
+$cfg['global_filter']['filter']['link']['contains']           = array('words','that','will filter out an entry');
+$cfg['global_filter']['filter']['link']['ends']               = array('words','that','will filter out an entry');
+$cfg['global_filter']['filter']['link']['regex']              = array('words','that','will filter out an entry');
+$cfg['global_filter']['filter']['link_original']['starts']    = array('words','that','will filter out an entry');
+$cfg['global_filter']['filter']['link_original']['contains']  = array('words','that','will filter out an entry');
+$cfg['global_filter']['filter']['link_original']['ends']      = array('words','that','will filter out an entry');
+$cfg['global_filter']['filter']['link_original']['regex']     = array('words','that','will filter out an entry');
+$cfg['global_filter']['filter']['content']['starts']          = array('words','that','will filter out an entry');
+$cfg['global_filter']['filter']['content']['contains']        = array('words','that','will filter out an entry');
+$cfg['global_filter']['filter']['content']['ends']            = array('words','that','will filter out an entry');
+$cfg['global_filter']['filter']['content']['regex']           = array('words','that','will filter out an entry');
+$cfg['global_filter']['filter']['author']['starts']           = array('words','that','will filter out an entry');
+$cfg['global_filter']['filter']['author']['contains']         = array('words','that','will filter out an entry');
+$cfg['global_filter']['filter']['author']['ends']             = array('words','that','will filter out an entry');
+$cfg['global_filter']['filter']['author']['regex']            = array('words','that','will filter out an entry');
+$cfg['global_filter']['filter']['category']['starts']         = array('words','that','will filter out an entry');
+$cfg['global_filter']['filter']['category']['contains']       = array('words','that','will filter out an entry');
+$cfg['global_filter']['filter']['category']['ends']           = array('words','that','will filter out an entry');
+$cfg['global_filter']['filter']['category']['regex']          = array('words','that','will filter out an entry');
 */
