@@ -41,14 +41,14 @@
 * NOTE: Example with GitHub Trends
 *
 * Configure the application below and call it with
-*   http://domain/feedpiper.php?feed=example
+*   http://domain/feedfilter.php?feed=example
 * You can debug the application by using
-*   http://domain/feedpiper.php?feed=example&debug=true
+*   http://domain/feedfilter.php?feed=example&debug=true
 */
-$cfg['example']['title'] = 'FEEDPIPER Example - GitHub Trends';
-$cfg['example']['url']   = array(
-'http://github-trends.ryotarai.info/rss/github_trends_all_daily.rss',
-);
+// $cfg['example']['title'] = 'FEEDPIPER Example - GitHub Trends';
+// $cfg['example']['url']   = array(
+// 'http://github-trends.ryotarai.info/rss/github_trends_all_daily.rss',
+// );
 // Filter out
 /*
 $cfg['example']['filter']['title']['starts']            = array('words','that','will filter out an entry');
