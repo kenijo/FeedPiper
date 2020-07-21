@@ -8,13 +8,13 @@
 */
 
 /**
-* Use the follwing pattern
+* Use the following pattern
 * $cfg['example']['url']                                 = array('');
 * $cfg['example']['title']                               = ',';
 *
 * 'example' represent the name of the attribute being passed on in the URL
-* It can also be named 'global_filter' to work accross all the feeds defined.
-* You can see it as an antispam for feeds
+* It can also be named 'global_filter' to work across all the feeds defined.
+* You can see it as an anti-spam for feeds
 *
 * Filter out (we remove what matches the following filter):
 * $cfg['example']['filter']['title']['contains']         = array('');
@@ -108,7 +108,7 @@ $cfg['example']['filter']['keep']['category']['regex']          = array('words',
 /**
 * NOTE: Global Filter Example
 *
-* Global filters, works as an antispam
+* Global filters, works as an anti-spam
 * Skip any feed that contains the following keywords anywhere
 */
 // Filter out
