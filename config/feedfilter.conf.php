@@ -45,12 +45,11 @@
 * You can debug the application by using
 *   http://domain/feedfilter.php?feed=example&debug=true
 */
-// $cfg['example']['title'] = 'FEEDPIPER Example - GitHub Trends';
-// $cfg['example']['url']   = array(
-// 'http://github-trends.ryotarai.info/rss/github_trends_all_daily.rss',
-// );
+$cfg['example']['title'] = 'FEEDPIPER Example - GitHub Trends';
+$cfg['example']['url']   = array(
+'http://github-trends.ryotarai.info/rss/github_trends_all_daily.rss',
+);
 // Filter out
-/*
 $cfg['example']['filter']['title']['starts']            = array('words','that','will filter out an entry');
 $cfg['example']['filter']['title']['contains']          = array('words','that','will filter out an entry');
 $cfg['example']['filter']['title']['ends']              = array('words','that','will filter out an entry');
@@ -75,10 +74,8 @@ $cfg['example']['filter']['category']['starts']         = array('words','that','
 $cfg['example']['filter']['category']['contains']       = array('words','that','will filter out an entry');
 $cfg['example']['filter']['category']['ends']           = array('words','that','will filter out an entry');
 $cfg['example']['filter']['category']['regex']          = array('words','that','will filter out an entry');
-*/
 
 // Filter keep
-/*
 $cfg['example']['filter']['keep']['title']['starts']            = array('words','that','will keep an entry');
 $cfg['example']['filter']['keep']['title']['contains']          = array('words','that','will keep an entry');
 $cfg['example']['filter']['keep']['title']['ends']              = array('words','that','will keep an entry');
@@ -103,7 +100,6 @@ $cfg['example']['filter']['keep']['category']['starts']         = array('words',
 $cfg['example']['filter']['keep']['category']['contains']       = array('words','that','will keep an entry');
 $cfg['example']['filter']['keep']['category']['ends']           = array('words','that','will keep an entry');
 $cfg['example']['filter']['keep']['category']['regex']          = array('words','that','will keep an entry');
-*/
 
 /**
 * NOTE: Global Filter Example
@@ -112,7 +108,6 @@ $cfg['example']['filter']['keep']['category']['regex']          = array('words',
 * Skip any feed that contains the following keywords anywhere
 */
 // Filter out
-/*
 $cfg['global_filter']['filter']['title']['starts']            = array('words','that','will filter out an entry');
 $cfg['global_filter']['filter']['title']['contains']          = array('words','that','will filter out an entry');
 $cfg['global_filter']['filter']['title']['ends']              = array('words','that','will filter out an entry');
@@ -137,4 +132,3 @@ $cfg['global_filter']['filter']['category']['starts']         = array('words','t
 $cfg['global_filter']['filter']['category']['contains']       = array('words','that','will filter out an entry');
 $cfg['global_filter']['filter']['category']['ends']           = array('words','that','will filter out an entry');
 $cfg['global_filter']['filter']['category']['regex']          = array('words','that','will filter out an entry');
-*/
